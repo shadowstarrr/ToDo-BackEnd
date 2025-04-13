@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+
+    "rootDir": "src",
+    "outDir": "build",
+
+    "paths": {
+      "#func": ["./src/functions/index.ts"],
+      "#data": ["./src/database/index.ts"],
+      "#config/*": ["./src/configs/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}
