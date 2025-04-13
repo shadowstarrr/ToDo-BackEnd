@@ -12,7 +12,7 @@ Uma api simples para TODO list, usando sqlite3 & typescript
 ## 🔧 Como Instalar
 
 ```bash
-git clone https://github.com/seu-usuario/todo-api.git
+git clone https://github.com/shadowstarrr/ToDo-BackEnd.git
 cd todo-backend
 npm i
 npm run dev
