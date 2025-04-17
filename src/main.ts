@@ -8,7 +8,7 @@ import { db } from '#data';
 
 const app = Fastify();
 
-app.register(Fascors, { origin: "*" });
+app.register(Fascors, { origin: "*", methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'] });
 app.register(Fasload, { 
     dir: path.join(import.meta.dirname, 'routes'),    
     routeParams: true
